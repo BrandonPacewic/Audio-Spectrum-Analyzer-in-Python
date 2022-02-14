@@ -43,7 +43,7 @@ class Terrain(object):
         # create the veritices array
         verts = np.array([
             [
-                x, y, 1.5 * self.tmp.noise2d(x=n / 5, y=m / 5)
+                x, y, 1.5 * self.tmp.noise2(x=n / 5, y=m / 5)
             ] for n, x in enumerate(self.xpoints) for m, y in enumerate(self.ypoints)
         ], dtype=np.float32)
 
@@ -76,7 +76,7 @@ class Terrain(object):
         """
         verts = np.array([
             [
-                x, y, 2.5 * self.tmp.noise2d(x=n / 5 + self.offset, y=m / 5 + self.offset)
+                x, y, 2.5 * self.tmp.noise2(x=n / 5 + self.offset, y=m / 5 + self.offset)
             ] for n, x in enumerate(self.xpoints) for m, y in enumerate(self.ypoints)
         ], dtype=np.float32)
 
