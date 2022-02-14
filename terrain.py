@@ -29,7 +29,7 @@ class Terrain(object):
         self.w.setGeometry(0, 110, 1920, 1080)
         self.w.show()
         self.w.setWindowTitle('Terrain')
-        self.w.setCameraPosition(distance=30, elevation=8)
+        self.w.setCameraPosition(distance=33, elevation=8)
 
         # constants and arrays
         self.nsteps = 1
