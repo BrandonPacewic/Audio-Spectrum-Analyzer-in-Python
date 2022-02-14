@@ -11,9 +11,9 @@
 
 from pyqtgraph.Qt import QtCore, QtGui
 
+import numpy as np
 import pyqtgraph.opengl as gl
 import pyqtgraph as pg
-import numpy as np
 import sys
 import time
 
@@ -82,7 +82,6 @@ class Visualizer(object):
         self.start()
 
 
-# Start event loop.
 if __name__ == '__main__':
     v = Visualizer()
     v.animation()
