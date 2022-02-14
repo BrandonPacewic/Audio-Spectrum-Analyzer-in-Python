@@ -103,6 +103,5 @@ class AudioStream(object):
 
 
 if __name__ == '__main__':
-
     audio_app = AudioStream()
     audio_app.animation()
