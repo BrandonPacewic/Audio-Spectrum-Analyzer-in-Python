@@ -1,7 +1,7 @@
 """
     Notebook for streaming audio data in realtime
 
-    Uses jupter notebooks insted of numpy graphs
+    Uses an alternative to numpy graphics
 """
 
 from pyqtgraph.Qt import QtGui, QtCore
