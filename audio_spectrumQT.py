@@ -1,3 +1,9 @@
+"""
+    Notebook for streaming audio data in realtime
+
+    uses jupter notebooks insted of numpy graphs
+"""
+
 import numpy as np
 from pyqtgraph.Qt import QtGui, QtCore
 import pyqtgraph as pg
