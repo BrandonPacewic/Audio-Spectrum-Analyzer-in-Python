@@ -26,7 +26,6 @@ import time
 
 class AudioStream(object):
     def __init__(self):
-
         # stream constants
         self.CHUNK = 1024 * 2
         self.FORMAT = pyaudio.paInt16
@@ -48,7 +47,6 @@ class AudioStream(object):
         self.start_plot()
 
     def init_plots(self):
-
         # x variables for plotting
         x = np.arange(0, 2 * self.CHUNK, 2)
         xf = np.linspace(0, self.RATE, self.CHUNK)
@@ -85,7 +83,6 @@ class AudioStream(object):
         plt.show(block=False)
 
     def start_plot(self):
-
         print('stream started')
         frame_count = 0
         start_time = time.time()
