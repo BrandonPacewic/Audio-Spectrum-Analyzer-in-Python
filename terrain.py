@@ -9,11 +9,12 @@
     >>> pip install opensimplex
 """
 
-import numpy as np
+from opensimplex import OpenSimplex
 from pyqtgraph.Qt import QtCore, QtGui
+
+import numpy as np
 import pyqtgraph.opengl as gl
 import sys
-from opensimplex import OpenSimplex
 
 
 class Terrain(object):
