@@ -2,15 +2,15 @@
 """
     Animated 3D sinc function
 
-    requires:
+    Requires:
         1. pyqtgraph
-            - download from here http://www.pyqtgraph.org/
+            >>> pip install pyqtgraph
         2. pyopenGL
-            - if you have Anaconda, run the following command
-            >>> conda install -c anaconda pyopengl
+            >>> pip install pyopengl
 """
 
 from pyqtgraph.Qt import QtCore, QtGui
+
 import pyqtgraph.opengl as gl
 import pyqtgraph as pg
 import numpy as np
