@@ -16,7 +16,6 @@ import sys
 
 class AudioStream(object):
     def __init__(self):
-
         # pyqtgraph stuff
         pg.setConfigOptions(antialias=True)
         self.traces = dict()
