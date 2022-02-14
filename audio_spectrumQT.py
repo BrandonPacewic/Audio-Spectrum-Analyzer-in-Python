@@ -60,7 +60,7 @@ class AudioStream(object):
         )
         # waveform and spectrum x points
         self.x = np.arange(0, 2 * self.CHUNK, 2)
-        self.f = np.linspace(0, self.RATE / 2, self.CHUNK / 2)
+        self.f = np.linspace(0, int(self.RATE / 2), int(self.CHUNK / 2))
 
     def start(self):
         if (sys.flags.interactive != 1) or not hasattr(QtCore, 'PYQT_VERSION'):
