@@ -14,14 +14,13 @@
     note: with 2048 samples per chunk, I'm getting 20FPS
     when also running the spectrum, its about 15FPS
 """
+
+from scipy.fftpack import fft
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pyaudio
-from pyqtgraph.Qt import QtGui, QtCore
-import pyqtgraph as pg
 import struct
-from scipy.fftpack import fft
-import sys
 import time
 
 
