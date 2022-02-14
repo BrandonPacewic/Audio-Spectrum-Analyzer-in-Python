@@ -1,12 +1,12 @@
 """
-This creates a 3D mesh with perlin noise to simulate
-a terrain. The mesh is animated by shifting the noise
-to give a "fly-over" effect.
+    This creates a 3D mesh with perlin noise to simulate
+    a terrain. The mesh is animated by shifting the noise
+    to give a "fly-over" effect.
 
-If you don't have pyOpenGL or opensimplex, then:
+    If you don't have pyOpenGL or opensimplex, then:
 
-    - conda install -c anaconda pyopengl
-    - pip install opensimplex
+    >>> pip install pyopengl
+    >>> pip install opensimplex
 """
 
 import numpy as np
