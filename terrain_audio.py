@@ -70,7 +70,6 @@ class Terrain(object):
         self.window.addItem(self.mesh1)
 
     def mesh(self, offset=0, height=2.5, wf_data=None):
-
         if wf_data is not None:
             wf_data = struct.unpack(str(2 * self.CHUNK) + 'B', wf_data)
             wf_data = np.array(wf_data, dtype='b')[::2] + 128
