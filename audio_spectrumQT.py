@@ -1,19 +1,17 @@
 """
     Notebook for streaming audio data in realtime
 
-    uses jupter notebooks insted of numpy graphs
+    Uses jupter notebooks insted of numpy graphs
 """
 
-import numpy as np
 from pyqtgraph.Qt import QtGui, QtCore
-import pyqtgraph as pg
-
-import struct
-import pyaudio
 from scipy.fftpack import fft
 
+import numpy as np
+import pyqtgraph as pg
+import pyaudio
+import struct
 import sys
-import time
 
 
 class AudioStream(object):
